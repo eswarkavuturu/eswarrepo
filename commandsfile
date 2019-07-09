@@ -1,0 +1,159 @@
+8:55 PM: touch file-name
+touch file1
+git status
+git add file1
+git status
+git commit -m "first commit" file1
+git status
+git log
+git show cid
+
+touch file4 file5 file6
+git status
+git add file4 file5 or
+git add . or
+git add * or 
+git add -A
+
+git status
+git commit -m "label" file1  (single file)
+git commit -m "label" 
+
+git add file1  (workspace to staging/index)
+git reset HEAD file  (staging/index to workspace)
+34 PM: 
+git log
+git log --oneline
+git log -3
+git log --oneline -4
+git log --author=prasad
+git log --since=yy-mm-dd
+or
+git log --after="2018-12-07"
+git log --befor="2019-02-07"
+or
+git log --until=yy-mm-dd
+
+git log --after="yesterday"
+
+git log --since=yy-mm-dd --until=yy-mm-dd
+or
+git log --after=yy-mm-dd --before=yy-mm-dd
+
+git log --grep="msg"
+git log -- file-name
+git log --after="2019-06-28 20:26" --before="2019-06-29 20:30"
+git commit -m "label"  (staging to local)
+git reset --soft cid   (local to staging)
+
+Q: hi
+
+
+
+Q: since
+
+
+
+Q: u can use git log --grep commit message
+
+
+
+DevOps Training (to All - Entire Audience):
+
+8:34 PM: 
+git log
+git log --oneline
+git log -3
+git log --oneline -4
+git log --author=prasad
+git log --since=yy-mm-dd
+or
+git log --after="2018-12-07"
+git log --befor="2019-02-07"
+or
+git log --until=yy-mm-dd
+
+git log --after="yesterday"
+
+git log --since=yy-mm-dd --until=yy-mm-dd
+or
+git log --after=yy-mm-dd --before=yy-mm-dd
+
+git log --grep="msg"
+git log -- file-name
+git log --after="2019-06-28 20:26" --before="2019-06-29 20:30"
+
+
+
+Q: 3 files
+
+
+
+Q: ok 2 files
+
+
+
+Q: f3 f4
+
+
+
+DevOps Training (to All - Entire Audience):
+
+8:59 PM: git clone https://github.com/polarapu/batch44.git
+
+Q: i know
+
+
+
+Q: yes
+
+
+
+Q: working dir staging commiting
+
+
+
+DevOps Training (to All - Entire Audience):
+
+9:02 PM: git merge branch-name
+
+git cherry-pick cid
+
+
+git merge --abort
+
+
+Stash
+----------
+git stash list
+touch a b c
+git add .
+git status
+git stash save "label1"
+git stash list
+git status
+
+git stash show -p stash@{0}
+
+pop, apply, drop
+----------------------
+POP  (move)
+====
+git stash pop
+git stash pop stash@{1}
+
+apply  (copy)
+====
+git stash apply
+git stash apply stash@{x}
+
+drop
+====
+git stash drop
+git stash drop stash@{x}
+
+
+
+https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+https://maven.apache.org/download.cgi
+https://winscp.net/download/WinSCP-5.15.2-Setup.exe
