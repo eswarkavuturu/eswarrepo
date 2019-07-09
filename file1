@@ -1,3 +1,9 @@
 hi
+<<<<<<< HEAD
 welcome
 ant
+=======
+welcome devops
+
+
+>>>>>>> refs/remotes/origin/master
